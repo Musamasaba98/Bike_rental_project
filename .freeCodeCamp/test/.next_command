@@ -94,3 +94,9 @@ history -a
 man sed
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo "$(echo ' M e ' | s e -E 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
